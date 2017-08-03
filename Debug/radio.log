@@ -1,0 +1,81 @@
+﻿生成启动时间为 2016/7/26 22:34:02。
+     1>项目“C:\Users\yzc\Desktop\OPNET\无线仿真ETS和EMA示例程序3\Radio\radio.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\opnet modeler\14.5.A\sys\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _STDC_ /D HOST_PC_INTEL_WIN32 /D _CTYPE_DISABLE_MACROS /D _X86_ /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\radio.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Choice.cpp Circle.cpp DetailDialog.cpp Dialog3Detail.cpp Dialog4Detail.cpp Dialog5Detail.cpp Irregular.cpp IrregularPoint.cpp PointNum.cpp Rectangle.cpp radio.cpp
+         radio.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(299): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(336): warning C4172: 返回局部变量或临时变量的地址
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(401): error C2108: 下标不是整型
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(405): error C2108: 下标不是整型
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(418): error C2108: 下标不是整型
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(422): error C2108: 下标不是整型
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(434): error C2108: 下标不是整型
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(438): error C2108: 下标不是整型
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(450): error C2108: 下标不是整型
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(454): error C2108: 下标不是整型
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(561): warning C4172: 返回局部变量或临时变量的地址
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(718): warning C4172: 返回局部变量或临时变量的地址
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(1295): warning C4172: 返回局部变量或临时变量的地址
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(1438): warning C4172: 返回局部变量或临时变量的地址
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.cpp(1574): warning C4172: 返回局部变量或临时变量的地址
+         Rectangle.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         PointNum.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         IrregularPoint.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         Irregular.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         Dialog5Detail.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         Dialog4Detail.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         Dialog3Detail.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         DetailDialog.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         Circle.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         Choice.cpp
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2556: “int round(float)”: 重载函数与“float round(float) throw()”只是在返回类型上不同
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+     1>c:\users\yzc\desktop\opnet\无线仿真ets和ema示例程序3\radio\radio.h(74): error C2371: “round”: 重定义；不同的基类型
+                 d:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(1125) : 参见“round”的声明
+         正在生成代码...
+     1>已完成生成项目“C:\Users\yzc\Desktop\OPNET\无线仿真ETS和EMA示例程序3\Radio\radio.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.96
